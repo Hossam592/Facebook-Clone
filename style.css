@@ -168,11 +168,11 @@ margin: 0;
 }
 }
 /* End Navbar */
+
 /* Section + Sides */
 .side-left{
     position: sticky;
-    top: 55px;
-    left: 0;
+    top: 56px;
     height: 100vh;
     overflow: hidden;
 }
@@ -206,8 +206,7 @@ section ul li p{
     height: 100vh;
     overflow: hidden;
     position: sticky;
-    right: 0;
-    top: 55px;
+    top: 56px;
 }
 .right-side:hover {
     overflow-y: scroll;
@@ -224,21 +223,17 @@ section ul li p{
 }
 .right-side .contacts ul li {
     display: flex;
-    justify-content: first baseline;
     align-items: center;
 }
 .right-side .contacts ul li img{
     border-radius: 50%;
     margin: 5px 30px 5px 0;
 }
-
-
 /* Story Css */
-.x{
+.story{
     display: flex;
     margin-top: 20px;
 }
-
 .firstleft{
     width: 100%;
     height: 200px;
@@ -248,9 +243,7 @@ section ul li p{
     border-radius: 10px;
     box-shadow: 0 0 5px 5px #ddd;
     position:relative;
-
 }
-
 .firstleft .icons{
     font-size: 20px;
     color:white;
@@ -306,6 +299,24 @@ section ul li p{
 } 
 
 /*********posts*********/
+.mind div{
+    border-radius: 10px;
+}
+.mind .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media  (max-width:430px) {
+    .mind .actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mind input::placeholder{
+        font-size: 12px;
+    }
+}
 .Fpost{
     background-color: white;
     padding:20px 20px 5px;
@@ -342,19 +353,14 @@ section ul li p{
     margin: 20px 0px;
 }
 .thepost img{
-width: 100%;
-height: 300px;
-object-fit: cover;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 .reacts{
-    padding: 20px 50px 0;
     border-top: 1px solid #898e94;
     margin: 20px 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     color: #898e94;
-    
 }
 .reacts i{
     color: #898e94;
@@ -362,10 +368,11 @@ object-fit: cover;
 }
 .reacts div{
     display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
 }
 .reacts div i{
-    margin-top: 4px;
-    margin-right: 14px;
-
+    margin-top: 3px;
+    margin-right: 8px;
 }
 /**********end middle**********/
