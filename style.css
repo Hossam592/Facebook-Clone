@@ -97,10 +97,11 @@ nav .nav-middle .active:hover {
     background-color: white;
 }
 
-.profile img{
-    width: 45px;
-    height: 40px;
+.profile_img{
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
+    object-fit: fill;
 }
 .nav-right .profile p{
     color:#050505 ; 
@@ -307,6 +308,10 @@ section ul li p{
     justify-content: space-between;
     align-items: center;
 }
+.mind .actions i {
+    font-size: 22px;
+}
+
 @media  (max-width:430px) {
     .mind .actions {
         display: flex;
