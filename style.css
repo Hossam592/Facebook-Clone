@@ -112,6 +112,7 @@ nav .nav-middle .active:hover {
 .menuicon{
     width: 45px;
     height: 45px;
+    margin: 0 1px;
 }
 .nav-right a{
     text-decoration: none;
@@ -137,11 +138,12 @@ display: none;
 .menuicon{
     width: 35px;
     height: 35px;
+    margin: 0 2px;
 }
 .dropdown-menu {
     width: 240px;
-    height: 310px;
-    padding: 10px;
+    height: 330px;
+    padding: 5px;
 }
 .dropdown-menu li{
     padding: 0 2px;
